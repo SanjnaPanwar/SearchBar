@@ -11,7 +11,16 @@ body {
 	color:#fbfafd;
     font-family: Helvetica;
     border-radius: 100px;
-    /* box-shadow: 0 4px 8px 0 #2179ec, 0 6px 20px 0 rgb(0, 0, 0, 19); */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #2179ec, 0 0 5px darkblue;
+    /* color: rgb(184, 174, 171); */
+    /* text-shadow: -1px 0 #2179ec, 0 1px #2179ec, 1px 0 #2179ec, 0 -1px #2179ec; */
+    
+    /* text-shadow: 0 0 3px rgb(139, 8, 69), 0 0 5px #2179ec; */
+
+    /* text-shadow: 2px 2px 15px #2179ec;  */
+
+   /* box-shadow: 0 4px 8px 0 #2179ec, 0 6px 20px 0 rgb(0, 0, 0, 19); */ */
 
 }
 
