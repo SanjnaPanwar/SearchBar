@@ -1,14 +1,18 @@
 body {
-	background-color: rgb(164, 165, 235);
+	background-color: #2a2a30;
 }
 
 .main h1 {
 	display: flex;
 	align-items: center;
-    justify-content: center;
+	justify-content: center;
 	text-align: center;
 	margin-top: 250px;
-    color: #09012c;
+	color:#fbfafd;
+    font-family: Helvetica;
+    border-radius: 100px;
+    /* box-shadow: 0 4px 8px 0 #2179ec, 0 6px 20px 0 rgb(0, 0, 0, 19); */
+
 }
 
 .container {
@@ -22,9 +26,10 @@ body {
 .row {
 	display: flex;
 	align-items: center;
-	background: rgb(30, 5, 116);
+	background: rgb(92, 8, 81);
+    box-shadow: 0 4px 8px 0 #2179ec, 0 6px 20px 0 rgb(0, 0, 0, 19);
 	border-radius: 100px;
-	border: 1px solid #09012c;
+	border: 1px solid #121213;
 }
 
 .row input {
@@ -37,6 +42,7 @@ body {
 	width: 0;
 	outline: none;
 	transition: all 0.2s;
+	
 }
 
 .icon {
